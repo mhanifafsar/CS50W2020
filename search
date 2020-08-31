@@ -4,6 +4,8 @@
     <title>My seach</title>
   </head>
   <Body>
-  <form type="text">
+  <form action="https://google.com/search">
+            <input type="text" name="q">
+            <input type="submit" value="Google Search">
   </body>
   </html>
