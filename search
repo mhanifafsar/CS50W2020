@@ -1,11 +1,36 @@
 <doc type=html>
+
 <html lang="en">
-  <head>
-    <title>My seach</title>
-  </head>
-  <Body>
-  <form action="https://google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
-  </body>
-  </html>
+  
+	<head>
+    
+	<title>My seach</title>
+	<style> 
+	input[type=text] {
+ 	margin-top: 350px;
+	border-radius: 30px;
+ 	border-style: solid;  
+ 	border-color: #ccc;
+ 	width: 500px;
+ 	height: 40px;
+ 	Padding: 12px 20px 12px 40px;
+	font-size=18px;
+
+}
+	</style>
+	</head>
+  
+	<Body>
+  
+		<div align= center>
+		<form action="https://google.com/search">
+            
+		<input type="text" name="q" placeholder="Search...">
+            
+		<p><input type="submit" value="Google Search">
+</P>
+		</div>
+		
+	</body>
+  
+</html>
