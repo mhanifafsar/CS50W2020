@@ -1,0 +1,17 @@
+input[type=text] {
+margin-top: 21%;
+border-radius: 30px;
+border-style: solid;  
+border-color: #ccc;
+width: 550px;
+height: 45px;
+Padding: 12px 20px 12px 40px;
+font-size: 18px;
+background-image: url('g.se.jpg');
+background-size: 13px 13px;
+background-repeat: no-repeat;
+background-position: 14px 14px;
+		}
+div {
+  text-align: right;
+}
