@@ -15,3 +15,6 @@ background-position: 14px 14px;
 div {
   text-align: right;
 }
+input[type=submit]{
+	cursor: pointer;
+}
