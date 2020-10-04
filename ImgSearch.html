@@ -2,20 +2,25 @@
 <html lang="en">
 <head>
 <title>Image Search</title>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-			integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"	integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <link rel="stylesheet" href="styles.css">
 </head>
 <Body>
-<div>
-<a href="search.html">Google Search</a>
+<div class='links'>
+	<a href="search.html">Google Search</a>
 </div>		
-<Center>	
-<form action="https://www.google.com/search">
-<input type="text" name="q" placeholder="Image Search..." ><br><br>
-<input type="submit" value="Google Image Search">
-<input name="tbm" type="hidden" value="isch">
-</form>
+<Center>
+	<div id="msrch">
+		<div id="sf">	
+			<form action="https://www.google.com/search" >
+			<input type="text" name="q" alt="Image Search" id="img_s">
+			<div class="sub_b">
+					<button type="submit">Google Search</button>
+			</div>
+			<input name="tbm" type="hidden" value="isch">
+			</form>
+		</div>
+	</div>
 </center>
 </body>
 </html>

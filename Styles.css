@@ -1,20 +1,117 @@
-input[type=text] {
-margin-top: 21%;
-border-radius: 30px;
-border-style: solid;  
-border-color: #ccc;
-width: 550px;
-height: 45px;
-Padding: 12px 20px 12px 40px;
-font-size: 18px;
-background-image: url('g.se.jpg');
-background-size: 13px 13px;
-background-repeat: no-repeat;
-background-position: 14px 14px;
-		}
-div {
-  text-align: right;
+#tsearch {
+	margin-top: 18%;
+	border-radius: 30px;
+	border-style: solid;  
+	border-color: rgb(226, 225, 225);
+	border-width: 1px;
+	width: 550px;
+	height: 45px;
+	Padding: 12px 20px 12px 40px;
+	font-size: 15px;
+	background-image: url('s.jpg');
+	background-size: 13px 13px;
+	background-repeat: no-repeat;
+	background-position: 14px 14px;
 }
-input[type=submit]{
+#img_s {
+	margin-top: 18%;
+	border-radius: 30px;
+	border-style: solid;  
+	border-color: rgb(226, 225, 225);
+	border-width: 1px;
+	width: 550px;
+	height: 45px;
+	Padding: 12px 20px 12px 40px;
+	font-size: 15px;
+	background-image: url('s.jpg');
+	background-size: 13px 13px;
+	background-repeat: no-repeat;
+	background-position: 14px 14px;
+}
+#img_s:focus{
+	outline:none;
+}
+#tsearch:focus{
+	outline:none;
+}
+#img_s:hover{
+		border-color: rgba(100, 97, 97, 0.363);
+}
+#tsearch:hover{
+	border-color: rgba(100, 97, 97, 0.363);
+}
+button {
+	padding: 10px;
 	cursor: pointer;
+	margin-top: 25px;
+	margin-right: 16px;
+	font-size: 14px;
+	border-radius: 4px;
+	color :rgba(47, 48, 49, 0.719);
+	background-color:rgba(189, 185, 185, 0.137);
+	border-color: white;
+	border-style: solid;
+	outline: none;
+	border-width: .5px;
 }
+button:hover{
+	color:rgb(4, 4, 7);
+	border-color: rgba(90, 95, 97, 0.486);
+}
+.links {
+	text-align: right;
+	font-size: 13px;
+	font-family: Arial, sans-serif;
+	margin: 5px;
+}
+#logo{
+	background-image: url("googlelogo.jpeg");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#msrch{
+	background-image: url("Google-Image-Search.jpg");
+	background-position: center;
+	width: auto;
+	background-repeat: no-repeat;
+}
+#sf{
+	text-align : center;	
+}
+/*css for advance search*/
+	.t_field {
+			margin-left: 50px;
+			padding: 7px;
+			width: 600px;
+		}
+		.t_field:focus {
+			border-style: solid;
+			border-color: #4d94ff;
+			outline: none;
+		}
+		#btn {
+			float: right;
+			background-color: #66a3ff;
+			cursor: pointer;
+			color: white;
+			padding: 9px;
+			border: none;
+			border-radius: 4px;
+		}
+		.col-20 {
+			float: left;
+			width: 20%;
+			margin-top: 6px;
+		}
+		.col-80 {
+			float: left;
+			width: 80%;
+			margin-top: 6px;
+		}
+		.row {
+			margin-top: 5px;
+		}
+		h3 {
+			color: red;
+		}
+		/**/
