@@ -1,5 +1,9 @@
+body,a,p {
+	font-family: arial,sans-serif;
+	font-size: small;
+}
 #tsearch {
-	margin-top: 18%;
+	margin-top: 2%;
 	border-radius: 30px;
 	border-style: solid;  
 	border-color: rgb(226, 225, 225);
@@ -23,10 +27,10 @@
 	height: 45px;
 	Padding: 12px 20px 12px 40px;
 	font-size: 15px;
-	background-image: url('s.jpg');
-	background-size: 13px 13px;
-	background-repeat: no-repeat;
-	background-position: 14px 14px;
+	background-image: url('s.jpg'), url('photo_camera_grey600_24dp.png'),url('vs_icon.jpg');
+	background-size: 20px 20px, 24px 24px, 20px 25px;
+	background-repeat: no-repeat, no-repeat;
+	background-position: 14px 12px, 480px 10px, 515px 8px;	
 }
 #img_s:focus{
 	outline:none;
@@ -74,17 +78,15 @@ button:focus{
 }
 .links {
 	text-align: right;
-	font-size: 13px;
-	font-family: Arial, sans-serif;
-	margin: 5px;
+	padding: 5px;
 }
-logo{
-	background-image: url("googlelogo.jpeg");
+#logo{
+	margin-top: 10%;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 #msrch{
-	background-image: url("Google-Image-Search.jpg");
+	background-image: url("googlelogo.png");
 	background-position: center;
 	width: auto;
 	background-repeat: no-repeat;
@@ -92,6 +94,7 @@ logo{
 #sf{
 	text-align : center;	
 }
+
 /*css for advance search*/
 	.t_field {
 			margin-left: 50px;
