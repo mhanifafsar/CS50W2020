@@ -18,7 +18,7 @@ body,a,p {
 	background-position: 14px 12px, 515px 8px;
 	}
 #img_s {
-	margin-top: 18%;
+	margin-top: 2%;
 	border-radius: 30px;
 	border-style: solid;  
 	border-color: rgb(226, 225, 225);
@@ -30,7 +30,7 @@ body,a,p {
 	background-image: url('s.jpg'), url('photo_camera_grey600_24dp.png'),url('vs_icon.jpg');
 	background-size: 20px 20px, 24px 24px, 20px 25px;
 	background-repeat: no-repeat, no-repeat;
-	background-position: 14px 12px, 480px 10px, 515px 8px;	
+	background-position: 14px 12px, 470px 10px, 515px 8px;	
 }
 #img_s:focus{
 	outline:none;
@@ -78,23 +78,19 @@ button:focus{
 }
 .links {
 	text-align: right;
-	padding: 5px;
+	padding: 10px;
+	
 }
 #logo{
-	margin-top: 10%;
-	background-position: center;
-	background-repeat: no-repeat;
-}
-#msrch{
-	background-image: url("googlelogo.png");
-	background-position: center;
-	width: auto;
-	background-repeat: no-repeat;
+	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+
 }
 #sf{
 	text-align : center;	
 }
-
 /*css for advance search*/
 	.t_field {
 			margin-left: 50px;
