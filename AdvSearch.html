@@ -1,27 +1,24 @@
-<!DOCTYPE html>
-<html lang="en" font-face=arial, calibri>
-
-<head>
-
-	<title>My seach</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	<link rel="stylesheet" href="styles.css">
-</head>
+<!doctype html>
+<html>
+    <head>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+			integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" href="styles.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
 <Body>
 	<div class="links">
-		<a href="search.html">Google Search</a>
+			<a href="search.html">Google Search</a>
 	</div>
-	<div class="container">
-		<h3> Advanced Search </h3>
-		<form action="https://www.google.com/advanced_search">
-
+		<img src="googlelogo.png" height="35" style="margin-left: 30px;margin-bottom: 20px;">
+		<h4> Advanced Search </h3>
+		<form action="https://www.google.com/search">
 			<div class="row">
 				<div class="col-20">
 					all these words:
 				</div>
 				<div class="col-80">
-					<input class="t_field" type="text" name="q">
+                    <input class="t_field"type="text" name="as_q">
 				</div>
 			</div>
 			<div class="row">
@@ -29,7 +26,7 @@
 					this exact word or phrase:
 				</div>
 				<div class="col-80">
-					<input class="t_field" type="text">
+                    <input class="t_field"type="text" name="as_epq">
 				</div>
 			</div>
 			<div class="row">
@@ -37,7 +34,7 @@
 					any of these words:
 				</div>
 				<div class="col-80">
-					<input class="t_field" type="text">
+                    <input class="t_field"type="text" name="as_oq" >
 				</div>
 			</div>
 			<div class="row">
@@ -45,13 +42,16 @@
 					none of these words:
 				</div>
 				<div class="col-80">
-					<input class="t_field" type="text">
+                    <input class="t_field"type="text" name="as_eq" >
 				</div>
 			</div>
-			<input id="btn" type="submit" value="Advance Search">
-
+			
+			<div class="row">
+				<div class="col-80">
+				<input id="btn" type="submit" value="Advance Search" style="margin-left:800px;">
+				</div>
+			</div>
 		</form>
 	</div>
 </body>
-
 </html>

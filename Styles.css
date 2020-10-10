@@ -85,46 +85,44 @@ button:focus{
 	position: absolute;
   	top: 50%;
   	left: 50%;
-  	transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	text-align : center;
+}
+.t_field {
+	margin-left: 50px;
+	padding: 7px;
+	width: 600px;
+}
+.t_field:focus {
+	border-style: solid;
+	border-color: #4d94ff;
+	outline: none;
+}
+#btn {
+	background-color: #66a3ff;
+	cursor: pointer;
+	color: white;
+	padding: 9px;
+	border: none;
+	border-radius: 4px;
+}
+.col-20 {
+	float: left;
+	width: 20%;
+	margin-top: 6px;
 
 }
-#sf{
-	text-align : center;	
+.col-80 {
+	float: left;
+	width: 80%;
+	margin-top: 6px;
 }
-/*css for advance search*/
-	.t_field {
-			margin-left: 50px;
-			padding: 7px;
-			width: 600px;
-		}
-		.t_field:focus {
-			border-style: solid;
-			border-color: #4d94ff;
-			outline: none;
-		}
-		#btn {
-			float: right;
-			background-color: #66a3ff;
-			cursor: pointer;
-			color: white;
-			padding: 9px;
-			border: none;
-			border-radius: 4px;
-		}
-		.col-20 {
-			float: left;
-			width: 20%;
-			margin-top: 6px;
-		}
-		.col-80 {
-			float: left;
-			width: 80%;
-			margin-top: 6px;
-		}
-		.row {
-			margin-top: 5px;
-		}
-		h3 {
-			color: red;
-		}
-		/**/
+.row {
+	margin-top: 5px;
+	margin-left:50px;
+}
+h4 {
+	color: #d93025;
+	margin-left:50px;
+	margin-bottom: 50px;
+	}
